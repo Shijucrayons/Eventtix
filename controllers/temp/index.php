@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>H &amp; H</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta name="author" content="">
+        
+		<link href="<?=base_url()?>public/user/css/menu.css" rel="stylesheet">
+		<link href="<?=base_url()?>public/user/css/HandH.css" rel="stylesheet" media="screen">
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+        <script type="text/javascript">
+		$(document).ready(function () {
+    $('.homelogo').position({
+        of: $(document),
+        my: 'center center',
+        at: 'center center',
+        collision: 'flip flip'
+    });
+});
+</script>
+</head>
+
+<body>
+<div class="homelogo"><a href=""><img src="<?=base_url()?>public/user/images/home-logo.jpg"></a></div>
+</body>
+</html>

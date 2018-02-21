@@ -1,2 +1,0 @@
-# Eventtix
-Eventtrix
